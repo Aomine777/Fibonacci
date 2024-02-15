@@ -1,9 +1,10 @@
 package org.example;
 
 
-//Time complexity O(n)
-//Space complexity O(1)
+
 public  class FibonacciSequence {
+    //Time complexity O(n)
+//Space complexity O(1)
     public int iterativeFib(int n){
         if(n < 0){
             throw new IllegalArgumentException("Invalid arguments");
