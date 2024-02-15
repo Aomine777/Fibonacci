@@ -1,5 +1,8 @@
 package org.example;
 
+
+//Time complexity O(n)
+//Space complexity O(1)
 public  class FibonacciSequence {
     public int iterativeFib(int n){
         if(n < 0){
@@ -18,6 +21,9 @@ public  class FibonacciSequence {
         }
         return current;
     }
+
+    //Time complexity O(n)
+    //Space complexity O(1)
     public int recursiveFib(int n){
         if(n < 0){
             throw new IllegalArgumentException("Invalid arguments");
@@ -27,6 +33,8 @@ public  class FibonacciSequence {
         }
         return recursiveFib(n - 1) + recursiveFib(n - 2);
     }
+    //Time complexity O(n)
+    //Space complexity O(n)
     public int dynamicFib(int n){
         if(n < 0){
             throw new IllegalArgumentException("Invalid arguments");
